@@ -111,6 +111,10 @@ JWT_RECUPERACAO_SENHA=
 Agora será necessário criar as migrações no banco de dados, portanto execute o seguinte comando no terminal: 
 
 ```
+npx prisma db push
+
+```
+```
 npx prisma migrate dev
 ```
 
